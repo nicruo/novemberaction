@@ -8,3 +8,4 @@ runs:
     shell: bash
   - run: echo "This is a command inside an Action. A Composite Action."
     shell: bash
+  - uses: actions/checkout@v4
