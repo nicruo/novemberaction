@@ -4,7 +4,7 @@ description: Hello World Action
 runs:
   using: "composite"
   steps:
-  - run: echo "Hello World
+  - run: echo "Hello World"
     shell: bash
   - run: echo "This is a command inside an Action. A Composite Action."
     shell: bash
